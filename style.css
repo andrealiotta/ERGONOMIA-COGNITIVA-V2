@@ -1,0 +1,188 @@
+
+body {
+    background-color: #A71E3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+}
+
+.U-button {
+    height: 60px;
+    width: 60px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+}
+
+.U-button:hover {
+    transition: 0.2s;
+    background-color: #373A3C;
+    color: aliceblue;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 2.5em;
+}
+
+.topdiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.micro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 1.5em;
+    border-radius: 20px;
+    margin: 0.2em;
+    margin-bottom: 1em;
+    width: 300px;
+    height: min-content;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 1.5em;
+    border-radius: 20px;
+    margin: 0.2em;
+    margin-bottom: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.radio {
+    margin-bottom: 1.5em;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+
+.semaforo {
+    display: flex;
+    flex-direction: row;
+}
+
+.locale {
+    margin: 0.3em;
+    text-align: center;
+}
+
+ .myButton {
+	background-color: #373A3C;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 15px;
+	text-decoration:none;
+}
+.myButton:hover {
+    transition: 0.3s;
+	background-color:#676d71;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color: aliceblue;
+	border-radius:4px;
+	border:1px solid #000;
+	display:inline-block;
+	cursor:pointer;
+	color: #000;
+	font-family:Arial;
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px aliceblue;
+}
+.myButton2:hover {
+    transition: 0.2s;
+	background-color:#333333;
+    color: aliceblue;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.affollamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0.3em;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.people {
+    color: lightgrey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-favorite {
+    position: relative;
+    left: 130px;
+    top: 5px;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.card-top-section {
+    display: flex;
+    flex-direction: row;
+}
